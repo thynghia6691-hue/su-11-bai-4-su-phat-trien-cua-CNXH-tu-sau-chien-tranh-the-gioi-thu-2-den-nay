@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4: Sự Phát Triển Của Chủ Nghĩa Xã Hội - Lịch Sử 11</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0B3D91',
+                            900: '#072861',
+                        },
+                        accent: {
+                            red: '#D62828',
+                        },
+                        ice: {
+                            blue: '#EAF3FF',
+                        },
+                        soft: {
+                            gray: '#F5F7FA',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .border-navy { border-color: #0B3D91; }
+        .text-navy { color: #0B3D91; }
+        .bg-navy { background-color: #0B3D91; }
+        .text-accent-red { color: #D62828; }
+        .bg-accent-red { background-color: #D62828; }
+        .bg-ice-blue { background-color: #EAF3FF; }
+        .bg-soft-gray { background-color: #F5F7FA; }
+        
+        /* Custom timeline line */
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 3px;
+            background-color: #0B3D91;
+            transform: translateX(-50%);
+        }
+        @media (max-width: 768px) {
+            .timeline-line::before {
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 font-sans leading-relaxed flex flex-col min-h-screen">
+
+    <!-- TOP HEADER -->
+    <header id="header" class="bg-white border-b-2 border-ice-blue sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center space-x-3">
+                <div class="bg-navy p-3 rounded-xl text-white">
+                    <i class="fa-solid fa-book-bookmark text-2xl"></i>
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-accent-red tracking-widest uppercase">LỊCH SỬ 11 – KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (TRANG 22 - 28)</span>
+                    <h1 class="text-lg md:text-xl font-extrabold text-navy leading-tight">
+                        BÀI 4. SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI TỪ SAU CHIẾN TRANH THẾ GIỚI THỨ HAI ĐẾN NAY
+                    </h1>
+                </div>
+            </div>
+            <!-- Header Illustration Map -->
+            <div class="hidden lg:flex items-center gap-3 bg-ice-blue p-2 rounded-xl border border-blue-200">
+                <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=150&q=80" alt="Bản đồ thế giới sau 1945" class="w-16 h-12 object-cover rounded-lg border border-navy/20">
+                <div class="text-xs">
+                    <p class="font-bold text-navy">Bản đồ địa – chính trị</p>
+                    <p class="text-gray-600">Thế giới sau năm 1945</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN NAVIGATION MENU -->
+        <nav class="bg-navy text-white text-xs md:text-sm font-semibold">
+            <div class="max-w-7xl mx-auto px-2 flex flex-wrap justify-center md:justify-between items-center overflow-x-auto">
+                <a href="#khoi-dong" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-compass"></i> KHỞI ĐỘNG</a>
+                <a href="#phan-1" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-chart-line"></i> 1. MỞ RỘNG & PHÁT TRIỂN</a>
+                <a href="#phan-2" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-triangle-exclamation"></i> 2. TAN RÃ Ở ĐÔNG ÂU & LIÊN XÔ</a>
+                <a href="#phan-3" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-earth-asia"></i> 3. TỪ 1991 ĐẾN NAY</a>
+                <a href="#luyen-tap" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-pen-to-square"></i> LUYỆN TẬP</a>
+                <a href="#van-dung" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-lightbulb"></i> VẬN DỤNG</a>
+                <a href="#tong-ket" class="px-3 py-2.5 hover:bg-accent-red transition-colors flex items-center gap-1.5 whitespace-nowrap"><i class="fa-solid fa-sitemap"></i> TỔNG KẾT</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 py-6 space-y-12">
+
+        <!-- MỤC TIÊU BÀI HỌC BANNER -->
+        <section class="bg-ice-blue border-l-4 border-navy p-5 rounded-r-xl shadow-sm">
+            <h2 class="text-base font-bold text-navy flex items-center gap-2 mb-2">
+                <i class="fa-solid fa-bullseye text-accent-red"></i> MỤC TIÊU BÀI HỌC (SGK TRANG 22)
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-xs md:text-sm text-gray-700">
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Trình bày quá trình phát triển của CNXH ở Đông Âu, Châu Á và Mỹ La-tinh.</div>
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Trình bày nguyên nhân sụp đổ của mô hình CNXH ở Đông Âu và Liên Xô.</div>
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Nêu những nét chính của chủ nghĩa xã hội từ năm 1991 đến nay.</div>
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Khai thác bản đồ, lược đồ, hình ảnh tư liệu lịch sử.</div>
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Hệ thống hóa kiến thức bằng sơ đồ xương cá, bảng so sánh.</div>
+                <div class="flex items-start gap-2"><i class="fa-solid fa-check text-navy mt-1"></i> Rút ra bài học lịch sử khách quan theo chuẩn kiến thức SGK.</div>
+            </div>
+        </section>
+
+        <!-- SECTION: KHỞI ĐỘNG -->
+        <section id="khoi-dong" class="bg-soft-gray p-6 rounded-2xl border border-gray-200 shadow-sm">
+            <div class="text-center max-w-3xl mx-auto mb-6">
+                <span class="bg-navy text-white text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-wider">HOẠT ĐỘNG KHỞI ĐỘNG</span>
+                <h2 class="text-xl md:text-2xl font-bold text-navy mt-2">
+                    "SAU CHIẾN TRANH THẾ GIỚI THỨ HAI, CHỦ NGHĨA XÃ HỘI ĐÃ PHÁT TRIỂN NHƯ THẾ NÀO?"
+                </h2>
+                <p class="text-sm text-gray-600 mt-1">Quan sát 4 khu vực tiêu biểu dưới đây và dự đoán các phạm vi mở rộng của hệ thống xã hội chủ nghĩa.</p>
+            </div>
+
+            <!-- 4 Visual Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                <!-- Card 1: Đông Âu -->
+                <div class="bg-white rounded-xl border border-ice-blue overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=400&q=80" alt="Đông Âu" class="w-full h-36 object-cover">
+                    <div class="p-3 text-center">
+                        <span class="font-bold text-navy block text-base">1. KHOẢNG ĐÔNG ÂU</span>
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Các nước Dân chủ Nhân dân Đông Âu</p>
+                        <p class="text-xs text-gray-500">Thời gian: 1945 – 1949</p>
+                    </div>
+                </div>
+                <!-- Card 2: Liên Xô -->
+                <div class="bg-white rounded-xl border border-ice-blue overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=400&q=80" alt="Liên Xô" class="w-full h-36 object-cover">
+                    <div class="p-3 text-center">
+                        <span class="font-bold text-navy block text-base">2. LIÊN XÔ</span>
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Thành tựu công nghiệp hóa Liên Xô</p>
+                        <p class="text-xs text-gray-500">Thời gian: Sau năm 1945</p>
+                    </div>
+                </div>
+                <!-- Card 3: Trung Quốc -->
+                <div class="bg-white rounded-xl border border-ice-blue overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=400&q=80" alt="Trung Quốc" class="w-full h-36 object-cover">
+                    <div class="p-3 text-center">
+                        <span class="font-bold text-navy block text-base">3. TRUNG QUỐC</span>
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Quảng trường Thiên An Môn</p>
+                        <p class="text-xs text-gray-500">Thời gian: Ngày 1/10/1949</p>
+                    </div>
+                </div>
+                <!-- Card 4: Cuba -->
+                <div class="bg-white rounded-xl border border-ice-blue overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <img src="https://images.unsplash.com/photo-1500759285222-a95626b934cb?auto=format&fit=crop&w=400&q=80" alt="Cuba" class="w-full h-36 object-cover">
+                    <div class="p-3 text-center">
+                        <span class="font-bold text-navy block text-base">4. CUBA</span>
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Thủ đô La Habana, Cuba</p>
+                        <p class="text-xs text-gray-500">Thời gian: Thắng lợi năm 1959</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#phan-1" class="inline-flex items-center gap-2 bg-navy hover:bg-blue-900 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm shadow-md">
+                    <span>BẮT ĐẦU KHÁM PHÁ BÀI HỌC</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- SECTION 1: MỞ RỘNG VÀ PHÁT TRIỂN -->
+        <section id="phan-1" class="space-y-8">
+            <div class="border-b-2 border-navy pb-3">
+                <span class="text-accent-red font-bold text-sm uppercase">PHẦN 1</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">SỰ MỞ RỘNG VÀ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI</h2>
+                <p class="text-sm text-gray-600">Từ phạm vi một nước (Liên Xô) trở thành một hệ thống thế giới trải dài qua Đông Âu, Châu Á và Mỹ La-tinh.</p>
+            </div>
+
+            <!-- A. ĐÔNG ÂU -->
+            <div class="bg-white rounded-2xl p-6 border border-ice-blue shadow-sm space-y-6">
+                <div class="flex items-center gap-3">
+                    <span class="bg-navy text-white text-base font-bold w-8 h-8 rounded-lg flex items-center justify-center">A</span>
+                    <h3 class="text-xl font-bold text-navy">SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI Ở ĐÔNG ÂU</h3>
+                </div>
+
+                <!-- Timeline Đông Âu -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-soft-gray p-5 rounded-xl border border-gray-200">
+                        <div class="flex items-center gap-2 text-accent-red font-bold text-lg mb-3">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <span>GIAI ĐOẠN 1945 – 1949</span>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Sau <span class="text-accent-red font-semibold">Chiến tranh thế giới thứ hai</span>, các nước Đông Âu thành lập nhà nước dân chủ nhân dân.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Thực hiện các nhiệm vụ của cách mạng dân chủ nhân dân: <span class="font-semibold text-navy">Cải cách ruộng đất</span>, <span class="font-semibold text-navy">Quốc hữu hóa</span> các nhà máy xí nghiệp của tư bản.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Thực hiện các quyền tự do, dân chủ cho nhân dân lao động.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-soft-gray p-5 rounded-xl border border-gray-200">
+                        <div class="flex items-center gap-2 text-accent-red font-bold text-lg mb-3">
+                            <i class="fa-solid fa-gears"></i>
+                            <span>GIAI ĐOẠN 1949 – GIỮA NHỮNG NĂM 70</span>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Tiến hành <span class="font-semibold text-navy">xây dựng chủ nghĩa xã hội</span>.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Thực hiện <span class="text-accent-red font-semibold">công nghiệp hóa</span>, <span class="text-accent-red font-semibold">điện khí hóa</span> toàn quốc và phát triển nông nghiệp.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Nhận được sự hỗ trợ, giúp đỡ to lớn từ <span class="font-semibold text-navy">Liên Xô</span>.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-circle-dot text-accent-red mt-1 text-xs"></i> Đạt được nhiều thành tựu quan trọng về kinh tế và xã hội.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Table Đông Âu -->
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs md:text-sm text-left border-collapse border border-gray-200 rounded-lg">
+                        <thead class="bg-navy text-white uppercase text-xs">
+                            <tr>
+                                <th class="p-3 border border-gray-300 w-1/4">THỜI GIAN</th>
+                                <th class="p-3 border border-gray-300 w-1/2">NỘI DUNG CHÍNH</th>
+                                <th class="p-3 border border-gray-300 w-1/4">KẾT QUẢ / THÀNH TỰU</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-gray-700">
+                            <tr class="bg-white hover:bg-ice-blue/50">
+                                <td class="p-3 font-bold text-accent-red border border-gray-200">1945 – 1949</td>
+                                <td class="p-3 border border-gray-200">Thành lập chính quyền dân chủ nhân dân; cải cách ruộng đất; xóa bỏ tàn tích phát xít và phong kiến.</td>
+                                <td class="p-3 border border-gray-200">Củng cố chính quyền nhân dân, tạo tiền đề xây dựng CNXH.</td>
+                            </tr>
+                            <tr class="bg-soft-gray hover:bg-ice-blue/50">
+                                <td class="p-3 font-bold text-accent-red border border-gray-200">1949 – Giữa 1970s</td>
+                                <td class="p-3 border border-gray-200">Công nghiệp hóa, hợp tác hóa nông nghiệp, xây dựng cơ sở vật chất - kỹ thuật của CNXH.</td>
+                                <td class="p-3 border border-gray-200">Trở thành các quốc gia công - nông nghiệp; đời sống nhân dân được nâng cao.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Maps & Historical Visuals -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                    <div class="border rounded-xl p-3 bg-soft-gray flex gap-3 items-center">
+                        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=300&q=80" alt="Lược đồ Đông Âu" class="w-28 h-20 object-cover rounded-lg">
+                        <div class="text-xs">
+                            <p class="font-bold text-navy">Tên ảnh: Bản đồ phân chia ảnh hưởng ở Châu Âu</p>
+                            <p class="text-gray-500">Thời gian: Sau năm 1945</p>
+                            <p class="text-gray-600 mt-1">Các nước Đông Âu hình thành hệ thống xã hội chủ nghĩa.</p>
+                        </div>
+                    </div>
+                    <div class="border rounded-xl p-3 bg-soft-gray flex gap-3 items-center">
+                        <img src="https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=300&q=80" alt="Xây dựng ở Đông Âu" class="w-28 h-20 object-cover rounded-lg">
+                        <div class="text-xs">
+                            <p class="font-bold text-navy">Tên ảnh: Công trình khôi phục kinh tế Đông Âu</p>
+                            <p class="text-gray-500">Thời gian: Thập niên 1950</p>
+                            <p class="text-gray-600 mt-1">Đông Âu xây dựng cơ sở công nghiệp hiện đại.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- B. CHÂU Á -->
+            <div class="bg-white rounded-2xl p-6 border border-ice-blue shadow-sm space-y-6">
+                <div class="flex items-center gap-3">
+                    <span class="bg-navy text-white text-base font-bold w-8 h-8 rounded-lg flex items-center justify-center">B</span>
+                    <h3 class="text-xl font-bold text-navy">SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI Ở CHÂU Á</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- CARD 1: TRUNG QUỐC -->
+                    <div class="bg-ice-blue/40 border border-navy/20 rounded-xl p-4 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <h4 class="font-extrabold text-navy text-lg">TRUNG QUỐC</h4>
+                                <i class="fa-solid fa-flag text-accent-red text-xl"></i>
+                            </div>
+                            <!-- Timeline Trung Quốc -->
+                            <div class="space-y-3 text-xs md:text-sm">
+                                <div class="bg-white p-2.5 rounded-lg border-l-4 border-accent-red">
+                                    <span class="font-bold text-accent-red">1/10/1949:</span>
+                                    <p class="text-gray-700 font-medium">Nước Cộng hòa Nhân dân Trung Hoa ra đời, bước vào thời kỳ xây dựng CNXH.</p>
+                                </div>
+                                <div class="bg-white p-2.5 rounded-lg border-l-4 border-navy">
+                                    <span class="font-bold text-navy">1950s – 1970s:</span>
+                                    <p class="text-gray-700">Tiến hành xây dựng chủ nghĩa xã hội với những biến động và khó khăn nhất định.</p>
+                                </div>
+                                <div class="bg-white p-2.5 rounded-lg border-l-4 border-accent-red">
+                                    <span class="font-bold text-accent-red">Từ cuối năm 1978:</span>
+                                    <p class="text-gray-700 font-medium">Thực hiện đường lối <span class="text-accent-red font-bold">cải cách và mở cửa</span>, đạt nhiều thành tựu vượt bậc.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200">
+                            <p class="text-xs text-gray-500 font-semibold">Chú thích: Trung Quốc mở rộng không gian địa - lý của CNXH ở Châu Á.</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2: VIỆT NAM -->
+                    <div class="bg-ice-blue/40 border border-navy/20 rounded-xl p-4 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <h4 class="font-extrabold text-navy text-lg">VIỆT NAM</h4>
+                                <i class="fa-solid fa-star text-yellow-500 text-xl"></i>
+                            </div>
+                            <!-- Timeline Việt Nam -->
+                            <div class="space-y-2.5 text-xs md:text-sm">
+                                <div class="bg-white p-2 rounded-lg flex items-center justify-between">
+                                    <span class="font-bold text-accent-red">1945:</span>
+                                    <span class="text-gray-700 font-medium">Cách mạng Tháng Tám thành công.</span>
+                                </div>
+                                <div class="bg-white p-2 rounded-lg flex items-center justify-between">
+                                    <span class="font-bold text-navy">1954:</span>
+                                    <span class="text-gray-700">Miền Bắc tiến lên xây dựng CNXH.</span>
+                                </div>
+                                <div class="bg-white p-2 rounded-lg flex items-center justify-between">
+                                    <span class="font-bold text-navy">1975:</span>
+                                    <span class="text-gray-700">Thống nhất đất nước, cả nước đi lên CNXH.</span>
+                                </div>
+                                <div class="bg-white p-2.5 rounded-lg border-l-4 border-accent-red">
+                                    <span class="font-bold text-accent-red">12/1986 – ĐỔI MỚI:</span>
+                                    <p class="text-gray-700 font-medium mt-0.5">Tiến hành công cuộc Đổi mới toàn diện đất nước, đạt nhiều thành tựu to lớn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200">
+                            <p class="text-xs text-gray-500 font-semibold">Chú thích: Kiên định mục tiêu Độc lập dân tộc gắn liền với CNXH.</p>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3: CÁC NƯỚC KHÁC -->
+                    <div class="bg-ice-blue/40 border border-navy/20 rounded-xl p-4 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <h4 class="font-extrabold text-navy text-lg">CÁC QUỐC GIA KHÁC</h4>
+                                <i class="fa-solid fa-globe text-navy text-xl"></i>
+                            </div>
+                            <div class="space-y-3 text-xs md:text-sm">
+                                <div class="bg-white p-3 rounded-lg border-l-4 border-navy">
+                                    <span class="font-bold text-navy">CHDCND Triều Tiên:</span>
+                                    <p class="text-gray-700 mt-1">Thành lập tháng 9/1948 và đi theo con طريق xây dựng chủ nghĩa xã hội.</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg border-l-4 border-navy">
+                                    <span class="font-bold text-navy">Cộng hòa Dân chủ Nhân dân Lào:</span>
+                                    <p class="text-gray-700 mt-1">Thành lập tháng 12/1975, lựa chọn con đường phát triển theo hướng XHCN và tiến hành đổi mới từ năm 1986.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200">
+                            <p class="text-xs text-gray-500 font-semibold">Chú thích: CNXH trở thành hệ thống nối liền từ Châu Âu sang Châu Á.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- C. MỸ LA-TINH -->
+            <div class="bg-white rounded-2xl p-6 border border-ice-blue shadow-sm space-y-6">
+                <div class="flex items-center gap-3">
+                    <span class="bg-navy text-white text-base font-bold w-8 h-8 rounded-lg flex items-center justify-center">C</span>
+                    <h3 class="text-xl font-bold text-navy">SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI Ở KHU VỰC MỸ LA-TINH</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+                    <div class="md:col-span-2 space-y-4">
+                        <div class="bg-soft-gray p-4 rounded-xl border border-gray-200">
+                            <span class="text-xs font-bold bg-accent-red text-white px-2.5 py-1 rounded">MỐC LỊCH SỬ TỐI QUAN TRỌNG</span>
+                            <h4 class="font-bold text-navy text-lg mt-2">CÁCH MẠNG CUBA THẮNG LỢI (1/1/1959)</h4>
+                            <p class="text-sm text-gray-700 mt-1">
+                                Dưới sự lãnh đạo của Fidel Castro, nhân dân Cuba lật đổ chế độ độc tài tay sai. Cuba lựa chọn con đường xây dựng chủ nghĩa xã hội, trở thành lá cờ đầu của CNXH tại khu vực Tây Bán cầu (Mỹ La-tinh).
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs md:text-sm">
+                            <div class="p-3 bg-ice-blue rounded-lg border border-blue-200">
+                                <span class="font-bold text-navy block">Năm 1961:</span>
+                                Tuyên bố tính chất XHCN của cuộc Cách mạng Cuba.
+                            </div>
+                            <div class="p-3 bg-ice-blue rounded-lg border border-blue-200">
+                                <span class="font-bold text-navy block">Thành tựu:</span>
+                                Xóa nạn mù chữ, phát triển y tế, giáo dục hàng đầu khu vực.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuba visual image -->
+                    <div class="border rounded-xl p-3 bg-soft-gray text-center space-y-2">
+                        <img src="https://images.unsplash.com/photo-1500759285222-a95626b934cb?auto=format&fit=crop&w=400&q=80" alt="Cuba History" class="w-full h-40 object-cover rounded-lg">
+                        <div class="text-xs">
+                            <p class="font-bold text-navy">Tên ảnh: Biểu tượng Cách mạng Cuba</p>
+                            <p class="text-gray-500">Quốc gia: Cuba (Mỹ La-tinh)</p>
+                            <p class="text-gray-600">Ngọn cờ đầu của CNXH ở Tây Bán cầu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTERACTIVE ACTIVITY: GHÉP QUỐC GIA - SỰ KIỆN -->
+            <div class="bg-ice-blue/60 rounded-2xl p-6 border-2 border-navy/30">
+                <div class="flex items-center gap-2 mb-4">
+                    <i class="fa-solid fa-puzzle-piece text-accent-red text-xl"></i>
+                    <h3 class="font-bold text-navy text-lg">HOẠT ĐỘNG TƯƠNG TÁC: "GHÉP QUỐC GIA – SỰ KIỆN LỊCH SỬ"</h3>
+                </div>
+                <p class="text-xs md:text-sm text-gray-600 mb-4">Chọn quốc gia ở cột trái, sau đó chọn sự kiện tương ứng ở cột phải để hoàn thành cặp ghép.</p>
+
+                <div id="matching-game" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Column Left: Countries -->
+                    <div class="space-y-2" id="country-list">
+                        <button onclick="selectCountry('LIÊN XÔ', this)" class="country-btn w-full text-left p-3 bg-white hover:bg-navy hover:text-white rounded-xl border border-gray-300 font-bold text-sm transition-all flex items-center justify-between">
+                            <span>1. LIÊN XÔ</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                        <button onclick="selectCountry('ĐÔNG ÂU', this)" class="country-btn w-full text-left p-3 bg-white hover:bg-navy hover:text-white rounded-xl border border-gray-300 font-bold text-sm transition-all flex items-center justify-between">
+                            <span>2. ĐÔNG ÂU</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                        <button onclick="selectCountry('TRUNG QUỐC', this)" class="country-btn w-full text-left p-3 bg-white hover:bg-navy hover:text-white rounded-xl border border-gray-300 font-bold text-sm transition-all flex items-center justify-between">
+                            <span>3. TRUNG QUỐC</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                        <button onclick="selectCountry('VIỆT NAM', this)" class="country-btn w-full text-left p-3 bg-white hover:bg-navy hover:text-white rounded-xl border border-gray-300 font-bold text-sm transition-all flex items-center justify-between">
+                            <span>4. VIỆT NAM</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                        <button onclick="selectCountry('CUBA', this)" class="country-btn w-full text-left p-3 bg-white hover:bg-navy hover:text-white rounded-xl border border-gray-300 font-bold text-sm transition-all flex items-center justify-between">
+                            <span>5. CUBA</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+
+                    <!-- Column Right: Events -->
+                    <div class="space-y-2" id="event-list">
+                        <button onclick="selectEvent('1986-DOI-MOI', this)" class="event-btn w-full text-left p-3 bg-white hover:bg-accent-red hover:text-white rounded-xl border border-gray-300 text-xs md:text-sm transition-all">
+                            Thực hiện đường lối Đổi mới từ năm 1986.
+                        </button>
+                        <button onclick="selectEvent('1949-TRUNG-HOA', this)" class="event-btn w-full text-left p-3 bg-white hover:bg-accent-red hover:text-white rounded-xl border border-gray-300 text-xs md:text-sm transition-all">
+                            Thành lập nước Cộng hòa Nhân dân năm 1949, thực hiện Cải cách mở cửa 1978.
+                        </button>
+                        <button onclick="selectEvent('1959-CACH-MANG', this)" class="event-btn w-full text-left p-3 bg-white hover:bg-accent-red hover:text-white rounded-xl border border-gray-300 text-xs md:text-sm transition-all">
+                            Thắng lợi cách mạng năm 1959, ngọn cờ đầu CNXH Mỹ La-tinh.
+                        </button>
+                        <button onclick="selectEvent('1945-1949-DAN-CHU', this)" class="event-btn w-full text-left p-3 bg-white hover:bg-accent-red hover:text-white rounded-xl border border-gray-300 text-xs md:text-sm transition-all">
+                            Thành lập Nhà nước Dân chủ Nhân dân (1945-1949) và xây dựng CNXH.
+                        </button>
+                        <button onclick="selectEvent('GIUP-DO-DONG-AU', this)" class="event-btn w-full text-left p-3 bg-white hover:bg-accent-red hover:text-white rounded-xl border border-gray-300 text-xs md:text-sm transition-all">
+                            Chỗ dựa vững chắc và giúp đỡ to lớn cho các nước XHCN.
+                        </button>
+                    </div>
+                </div>
+
+                <div id="matching-feedback" class="mt-4 p-3 rounded-xl text-center font-bold hidden"></div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: TAN RÃ Ở ĐÔNG ÂU VÀ LIÊN XÔ -->
+        <section id="phan-2" class="space-y-8 pt-6">
+            <div class="border-b-2 border-navy pb-3">
+                <span class="text-accent-red font-bold text-sm uppercase">PHẦN 2</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">SỰ TAN RÃ CỦA MÔ HÌNH CHỦ NGHĨA XÃ HỘI Ở ĐÔNG ÂU VÀ LIÊN XÔ</h2>
+                <p class="text-sm text-gray-600">Cuộc khủng hoảng mô hình CNXH diễn ra từ cuối những năm 1970 đến khi sụp đổ năm 1989 - 1991.</p>
+            </div>
+
+            <!-- Timeline Khủng Hoảng -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-6">
+                <h3 class="text-lg font-bold text-navy flex items-center gap-2">
+                    <i class="fa-solid fa-timeline text-accent-red"></i> TIẾN TRÌNH KHỦNG HOẢNG VÀ TAN RÃ (CUỐI 1970S – 1991)
+                </h3>
+
+                <!-- Horizontal Step Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="bg-soft-gray p-4 rounded-xl border-t-4 border-yellow-500">
+                        <span class="text-xs font-bold text-yellow-600 uppercase">CUỐI 1970s</span>
+                        <h4 class="font-bold text-navy mt-1">Bộc lộ khủng hoảng</h4>
+                        <p class="text-xs text-gray-600 mt-2">
+                            Mô hình CNXH lâm vào khủng hoảng do những hạn chế trong cơ chế quản lý kinh tế - xã hội và tác động của khủng hoảng năng lượng thế giới năm 1973.
+                        </p>
+                    </div>
+                    <div class="bg-soft-gray p-4 rounded-xl border-t-4 border-orange-500">
+                        <span class="text-xs font-bold text-orange-600 uppercase">NHỮNG NĂM 1980</span>
+                        <h4 class="font-bold text-navy mt-1">Khủng hoảng sâu sắc</h4>
+                        <p class="text-xs text-gray-600 mt-2">
+                            Chậm thích ứng trước những biến đổi của tình hình. Các cuộc cải cách, cải tổ (như Cải tổ ở Liên Xô từ 1985) không đạt được mục tiêu đề ra, làm tình hình chao đảo.
+                        </p>
+                    </div>
+                    <div class="bg-soft-gray p-4 rounded-xl border-t-4 border-accent-red">
+                        <span class="text-xs font-bold text-accent-red uppercase">NĂM 1989</span>
+                        <h4 class="font-bold text-navy mt-1">Đông Âu sụp đổ</h4>
+                        <p class="text-xs text-gray-600 mt-2">
+                            Chế độ xã hội chủ nghĩa ở các nước Đông Âu lần lượt sụp đổ sau những biến động chính trị dồn dập.
+                        </p>
+                    </div>
+                    <div class="bg-soft-gray p-4 rounded-xl border-t-4 border-navy">
+                        <span class="text-xs font-bold text-navy uppercase">THÁNG 12/1991</span>
+                        <h4 class="font-bold text-navy mt-1">Liên Xô tan rã</h4>
+                        <p class="text-xs text-gray-600 mt-2">
+                            Liên bang Cộng hòa xã hội chủ nghĩa Xô viết chính thức tan rã. Mô hình CNXH ở Đông Âu và Liên Xô chấm dứt tồn tại.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Documentary Image of USSR collapse -->
+                <div class="border rounded-xl p-4 bg-soft-gray flex flex-col md:flex-row gap-4 items-center">
+                    <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=400&q=80" alt="Sự kiện Liên Xô tan rã" class="w-full md:w-56 h-36 object-cover rounded-lg">
+                    <div class="text-xs md:text-sm text-gray-700 space-y-1">
+                        <p class="font-bold text-navy text-base">Tên ảnh: Tư liệu thời kỳ biến động ở Liên Xô</p>
+                        <p class="text-accent-red font-semibold">Thời gian: Tháng 12/1991 | Địa điểm: Điện Kremli, Mát-xcơ-va</p>
+                        <p class="text-gray-600">
+                            Chú thích: Sự kiện cờ Liên Xô hạ xuống tại Điện Kremli đánh dấu sự tan rã của Liên Bang Xô Viết sau 74 năm tồn tại. Sự tan rã này là tổn thất lớn đối với phong trào cách mạng thế giới, nhưng không làm thay đổi bản chất khoa học của CNXH.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SƠ ĐỒ XƯƠNG CÁ: NGUYÊN NHÂN TAN RÃ -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-6">
+                <div class="text-center">
+                    <span class="bg-accent-red text-white text-xs px-3 py-1 rounded-full font-bold uppercase">SƠ ĐỒ TƯ DUY XƯƠNG CÁ</span>
+                    <h3 class="text-xl font-bold text-navy mt-2">NGUYÊN NHÂN TAN RÃ CỦA MÔ HÌNH CNXH Ở ĐÔNG ÂU VÀ LIÊN XÔ ( THEO SGK )</h3>
+                </div>
+
+                <!-- Fishbone Visualization Grid -->
+                <div class="bg-ice-blue/40 p-6 rounded-xl border border-navy/20 relative overflow-x-auto">
+                    <!-- Central Spine -->
+                    <div class="hidden lg:block absolute top-1/2 left-4 right-20 h-1.5 bg-navy -translate-y-1/2 z-0"></div>
+                    <div class="hidden lg:flex absolute top-1/2 right-4 -translate-y-1/2 bg-accent-red text-white font-bold text-xs p-3 rounded-xl z-10 shadow">
+                        MÔ HÌNH CNXH Ở ĐÔNG ÂU & LIÊN XÔ TAN RÃ
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 relative z-10">
+                        <!-- Branch 1 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 1</span>
+                            <h4 class="font-bold text-navy text-sm">MÔ HÌNH KINH TẾ</h4>
+                            <p class="text-xs text-gray-600 mt-1">Duy trì quá lâu cơ chế tập trung quan liêu bao cấp, không phù hợp quy luật kinh tế khách quan.</p>
+                        </div>
+                        <!-- Branch 2 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 2</span>
+                            <h4 class="font-bold text-navy text-sm">CƠ CHẾ QUẢN LÝ</h4>
+                            <p class="text-xs text-gray-600 mt-1">Thiếu dân chủ, vi phạm pháp chế, chưa phát huy tính sáng tạo của nhân dân lao động.</p>
+                        </div>
+                        <!-- Branch 3 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 3</span>
+                            <h4 class="font-bold text-navy text-sm">CẢI CÁCH KHÔNG HIỆU QUẢ</h4>
+                            <p class="text-xs text-gray-600 mt-1">Chậm sửa chữa khuyết điểm; khi cải tổ lại mắc sai lầm nghiêm trọng về đường lối và phương pháp.</p>
+                        </div>
+                        <!-- Branch 4 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 4</span>
+                            <h4 class="font-bold text-navy text-sm">KHỦNG HOẢNG KINH TẾ – XÃ HỘI</h4>
+                            <p class="text-xs text-gray-600 mt-1">Kinh tế suy thoái kéo dài, hàng hóa tiêu dùng khan hiếm, đời sống nhân dân giảm sút.</p>
+                        </div>
+                        <!-- Branch 5 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 5</span>
+                            <h4 class="font-bold text-navy text-sm">BIẾN ĐỘNG CHÍNH TRỊ</h4>
+                            <p class="text-xs text-gray-600 mt-1">Sự tha hóa về tư tưởng, mâu thuẫn nội bộ chính trị dâng cao, đánh mất vai trò lãnh đạo.</p>
+                        </div>
+                        <!-- Branch 6 -->
+                        <div class="bg-white p-4 rounded-xl border-l-4 border-navy shadow-sm">
+                            <span class="text-xs font-bold text-accent-red uppercase">NHÁNH 6</span>
+                            <h4 class="font-bold text-navy text-sm">TÁC ĐỘNG QUỐC TẾ</h4>
+                            <p class="text-xs text-gray-600 mt-1">Hoạt động chống phá của các lực lượng thù địch bên ngoài ("diễn biến hòa bình").</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HOẠT ĐỘNG: TÌM NGUYÊN NHÂN -->
+            <div class="bg-soft-gray p-6 rounded-2xl border border-gray-200 shadow-sm space-y-4">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-list-check text-navy text-xl"></i>
+                    <h3 class="font-bold text-navy text-lg">HOẠT ĐỘNG: "PHÂN LOẠI NGUYÊN NHÂN TAN RÃ"</h3>
+                </div>
+                <p class="text-xs md:text-sm text-gray-600">Nhấp vào từng thẻ nguyên nhân dưới đây để xem phân loại chính xác vào 4 nhóm yếu tố.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <button onclick="showCauseCategory('Cơ chế tập trung quan liêu bao cấp trì trệ kéo dài', 'KINH TẾ', 'Thuộc yếu tố Kinh tế: Làm triệt tiêu động lực phát triển và sức sản xuất.')" class="p-3 bg-white hover:bg-ice-blue border border-gray-300 rounded-xl text-xs font-semibold text-left transition-all">
+                        📌 Cơ chế tập trung quan liêu bao cấp
+                    </button>
+                    <button onclick="showCauseCategory('Sai lầm trong đường lối cải tổ (chối bỏ vai trò lãnh đạo)', 'CHÍNH TRỊ', 'Thuộc yếu tố Chính trị: Mất phương hướng chỉ đạo, gây hỗn loạn chính trị.')" class="p-3 bg-white hover:bg-ice-blue border border-gray-300 rounded-xl text-xs font-semibold text-left transition-all">
+                        📌 Sai lầm nghiêm trọng trong cải tổ
+                    </button>
+                    <button onclick="showCauseCategory('Đời sống nhân dân suy giảm, thiếu hụt hàng tiêu dùng', 'XÃ HỘI', 'Thuộc yếu tố Xã hội: Làm giảm niềm tin của nhân dân vào mô hình.')" class="p-3 bg-white hover:bg-ice-blue border border-gray-300 rounded-xl text-xs font-semibold text-left transition-all">
+                        📌 Đời sống nhân dân giảm sút
+                    </button>
+                    <button onclick="showCauseCategory('Hoạt động can thiệp, chống phá của các lực lượng thù địch', 'ĐỐI NGOẠI / QUỐC TẾ', 'Thuộc yếu tố Tác động quốc tế: Tận dụng khó khăn nội bộ để tác động sụp đổ.')" class="p-3 bg-white hover:bg-ice-blue border border-gray-300 rounded-xl text-xs font-semibold text-left transition-all">
+                        📌 Tác động chống phá bên ngoài
+                    </button>
+                </div>
+
+                <div id="cause-result" class="hidden p-4 bg-white border border-navy/30 rounded-xl text-xs md:text-sm">
+                    <span id="cause-tag" class="font-bold text-accent-red block mb-1"></span>
+                    <p id="cause-desc" class="text-gray-700"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: TỪ NĂM 1991 ĐẾN NAY -->
+        <section id="phan-3" class="space-y-8 pt-6">
+            <div class="border-b-2 border-navy pb-3">
+                <span class="text-accent-red font-bold text-sm uppercase">PHẦN 3</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">CHỦ NGHĨA XÃ HỘI TỪ NĂM 1991 ĐẾN NAY</h2>
+                <p class="text-sm text-gray-600">Sự kiên trì, điều chỉnh đường lối, đổi mới và cải cách đạt nhiều thành tựu lớn của các quốc gia xã hội chủ nghĩa.</p>
+            </div>
+
+            <!-- Country Details Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                <!-- TRUNG QUỐC TỪ 1978 ĐẾN NAY -->
+                <div class="bg-white p-5 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                    <div class="flex items-center justify-between border-b pb-2">
+                        <h3 class="font-extrabold text-navy text-lg">TRUNG QUỐC TỪ 1978</h3>
+                        <span class="bg-accent-red text-white text-xs px-2 py-0.5 rounded font-bold">CẢI CÁCH MỞ CỬA</span>
+                    </div>
+                    <div class="space-y-3 text-xs md:text-sm">
+                        <div class="bg-soft-gray p-3 rounded-xl border-l-4 border-navy">
+                            <span class="font-bold text-navy">Đường lối:</span> Xây dựng chủ nghĩa xã hội mang đặc sắc Trung Quốc, lấy phát triển kinh tế làm trung tâm.
+                        </div>
+                        <div class="space-y-1.5">
+                            <span class="font-bold text-accent-red block">Thành tựu tiêu biểu (SGK):</span>
+                            <ul class="space-y-1 text-gray-700 list-disc list-inside">
+                                />Tốc độ tăng trưởng kinh tế cao liên tục trong nhiều thập kỷ.</li>
+                                <li>Quy mô kinh tế (GDP) vươn lên đứng thứ hai thế giới.</li>
+                                <li>Khoa học – công nghệ phát triển mạnh (Thần Châu, đường sắt tốc độ cao).</li>
+                                <li>Đời sống nhân dân nâng cao, vị thế quốc tế được khẳng định.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="border rounded-xl p-2 bg-soft-gray text-center">
+                        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=350&q=80" alt="Hiện đại hóa Trung Quốc" class="w-full h-28 object-cover rounded-lg">
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Đô thị hiện đại Trung Quốc thời kỳ Cải cách mở cửa</p>
+                    </div>
+                </div>
+
+                <!-- VIỆT NAM TỪ 1986 ĐẾN NAY -->
+                <div class="bg-white p-5 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                    <div class="flex items-center justify-between border-b pb-2">
+                        <h3 class="font-extrabold text-navy text-lg">VIỆT NAM TỪ 1986</h3>
+                        <span class="bg-accent-red text-white text-xs px-2 py-0.5 rounded font-bold">ĐỔI MỚI TOÀN DIỆN</span>
+                    </div>
+                    <div class="space-y-3 text-xs md:text-sm">
+                        <div class="bg-soft-gray p-3 rounded-xl border-l-4 border-navy">
+                            <span class="font-bold text-navy">Đường lối:</span> Đổi mới toàn diện, chuyển sang nền kinh tế thị trường định hướng xã hội chủ nghĩa, hội nhập quốc tế.
+                        </div>
+                        <div class="space-y-1.5">
+                            <span class="font-bold text-accent-red block">Thành tựu tiêu biểu (SGK):</span>
+                            <ul class="space-y-1 text-gray-700 list-disc list-inside">
+                                <li>Thoát khỏi khủng hoảng kinh tế - xã hội, trở thành nước đang phát triển.</li>
+                                <li>Chính trị - xã hội ổn định, quốc phòng an ninh được củng cố.</li>
+                                <li>Hội nhập quốc tế sâu rộng (WTO, ASEAN, FTA thế hệ mới).</li>
+                                <li>Tỷ lệ hộ nghèo giảm nhanh, đời sống cải thiện rõ rệt.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="border rounded-xl p-2 bg-soft-gray text-center">
+                        <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=350&q=80" alt="Đổi mới Việt Nam" class="w-full h-28 object-cover rounded-lg">
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Thành tựu công nghiệp hóa, hiện đại hóa ở Việt Nam</p>
+                    </div>
+                </div>
+
+                <!-- CUBA VÀ CÁC QUỐC GIA KHÁC -->
+                <div class="bg-white p-5 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                    <div class="flex items-center justify-between border-b pb-2">
+                        <h3 class="font-extrabold text-navy text-lg">CUBA & LÀO</h3>
+                        <span class="bg-navy text-white text-xs px-2 py-0.5 rounded font-bold">KIÊN TRÌ & CẢI CÁCH</span>
+                    </div>
+                    <div class="space-y-3 text-xs md:text-sm">
+                        <div class="bg-soft-gray p-2.5 rounded-xl border-l-4 border-navy">
+                            <span class="font-bold text-navy block">Cuba:</span>
+                            Kiên định con đường XHCN, tiến hành "cập nhật hóa mô hình kinh tế", duy trì thành tựu y tế, giáo dục đỉnh cao dù chịu cấm vận.
+                        </div>
+                        <div class="bg-soft-gray p-2.5 rounded-xl border-l-4 border-navy">
+                            <span class="font-bold text-navy block">Lào:</span>
+                            Thực hiện đường lối Đổi mới từ năm 1986, đẩy mạnh phát triển kinh tế, nâng cao đời sống nhân dân, mở rộng quan hệ đối ngoại.
+                        </div>
+                    </div>
+                    <div class="border rounded-xl p-2 bg-soft-gray text-center">
+                        <img src="https://images.unsplash.com/photo-1500759285222-a95626b934cb?auto=format&fit=crop&w=350&q=80" alt="Cuba Đổi Mới" class="w-full h-28 object-cover rounded-lg">
+                        <p class="text-xs text-gray-500 mt-1">Tên ảnh: Cuba kiên trì xây dựng và cập nhật mô hình phát triển</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BẢNG TỔNG HỢP THEO QUY ĐỊNH SGK -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                <h3 class="text-lg font-bold text-navy flex items-center gap-2">
+                    <i class="fa-solid fa-table text-accent-red"></i> BẢNG TỔNG HỢP: ĐƯỜNG LỐI VÀ KẾT QUẢ TỪ NĂM 1991 ĐẾN NAY
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs md:text-sm text-left border-collapse border border-gray-200">
+                        <thead class="bg-navy text-white uppercase text-xs">
+                            <tr>
+                                <th class="p-3 border border-gray-300">QUỐC GIA</th>
+                                <th class="p-3 border border-gray-300">ĐƯỜNG LỐI / CHÍNH SÁCH</th>
+                                <th class="p-3 border border-gray-300">MỘT SỐ KẾT QUẢ CƠ BẢN (SGK)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-ice-blue/40">
+                                <td class="p-3 font-bold text-navy border border-gray-200">Trung Quốc</td>
+                                <td class="p-3 border border-gray-200">Cải cách mở cửa từ 12/1978; xây dựng CNXH mang đặc sắc Trung Quốc.</td>
+                                <td class="p-3 border border-gray-200">Kinh tế phát triển nhanh; GDP đứng thứ 2 thế giới; KH-CN đạt trình độ cao.</td>
+                            </tr>
+                            <tr class="hover:bg-ice-blue/40 bg-soft-gray">
+                                <td class="p-3 font-bold text-navy border border-gray-200">Việt Nam</td>
+                                <td class="p-3 border border-gray-200">Đổi mới toàn diện từ 12/1986; phát triển KTTT định hướng XHCN.</td>
+                                <td class="p-3 border border-gray-200">Kinh tế tăng trưởng khá; an sinh xã hội đảm bảo; nâng cao vị thế ngoại giao.</td>
+                            </tr>
+                            <tr class="hover:bg-ice-blue/40">
+                                <td class="p-3 font-bold text-navy border border-gray-200">Lào</td>
+                                <td class="p-3 border border-gray-200">Đổi mới từ năm 1986; chuyển sang kinh tế thị trường, mở rộng đối ngoại.</td>
+                                <td class="p-3 border border-gray-200">Giữ vững ổn định chính trị; kinh tế tăng trưởng liên tục; cải thiện đời sống.</td>
+                            </tr>
+                            <tr class="hover:bg-ice-blue/40 bg-soft-gray">
+                                <td class="p-3 font-bold text-navy border border-gray-200">Cuba</td>
+                                <td class="p-3 border border-gray-200">Kiên định con đường XHCN; thực hiện "cập nhật hóa mô hình kinh tế".</td>
+                                <td class="p-3 border border-gray-200">Bảo vệ vững chắc chủ quyền; duy trì trình độ y tế, giáo dục chất lượng cao.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- BẢNG SO SÁNH BA KHU VỰC -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                <h3 class="text-lg font-bold text-navy flex items-center gap-2">
+                    <i class="fa-solid fa-code-compare text-accent-red"></i> BẢNG SO SÁNH SỰ PHÁT TRIỂN CNXH Ở CÁC KHU VỰC
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs md:text-sm text-left border-collapse border border-gray-200">
+                        <thead class="bg-navy text-white text-xs uppercase">
+                            <tr>
+                                <th class="p-3 border border-gray-300">TIÊU CHÍ</th>
+                                <th class="p-3 border border-gray-300">ĐÔNG ÂU</th>
+                                <th class="p-3 border border-gray-300">CHÂU Á</th>
+                                <th class="p-3 border border-gray-300">MỸ LA-TINH</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-gray-700">
+                            <tr>
+                                <td class="p-3 font-bold text-navy border border-gray-200">Thời điểm phát triển</td>
+                                <td class="p-3 border border-gray-200">1945 – 1949 hình thành; xây dựng CNXH từ 1949.</td>
+                                <td class="p-3 border border-gray-200">Từ năm 1949 (Trung Quốc) và mở rộng thập niên 1950-1970.</td>
+                                <td class="p-3 border border-gray-200">Từ sau thắng lợi Cách mạng Cuba năm 1959.</td>
+                            </tr>
+                            <tr class="bg-soft-gray">
+                                <td class="p-3 font-bold text-navy border border-gray-200">Quốc gia tiêu biểu</td>
+                                <td class="p-3 border border-gray-200">Ba Lan, Tiệp Khắc, Ba Tư, Hungary, Romania...</td>
+                                <td class="p-3 border border-gray-200">Trung Quốc, Việt Nam, CHDCND Triều Tiên, Lào.</td>
+                                <td class="p-3 border border-gray-200">Cộng hòa Cuba.</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-bold text-navy border border-gray-200">Đặc điểm / Chuyển biến</td>
+                                <td class="p-3 border border-gray-200">Lâm vào khủng hoảng và tan rã mô hình năm 1989.</td>
+                                <td class="p-3 border border-gray-200">Tiến hành cải cách, đổi mới thành công, phát triển mạnh mẽ.</td>
+                                <td class="p-3 border border-gray-200">Kiên định vượt qua cấm vận, cập nhật mô hình kinh tế.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- HOẠT ĐỘNG "ĐÚNG HAY SAI" -->
+            <div class="bg-ice-blue/60 p-6 rounded-2xl border-2 border-navy/30 space-y-4">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-circle-check text-navy text-xl"></i>
+                    <h3 class="font-bold text-navy text-lg">HOẠT ĐỘNG TƯƠNG TÁC: "KIỂM TRA NHẬN ĐỊNH ĐÚNG HAY SAI"</h3>
+                </div>
+                <p class="text-xs text-gray-600">Đọc 8 nhận định dưới đây và chọn ĐÚNG hoặc SAI để kiểm tra mức độ nắm kiến thức.</p>
+
+                <div id="tf-container" class="space-y-3">
+                    <!-- Questions will be populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: LUYỆN TẬP (12 CÂU TRẮC NGHIỆM) -->
+        <section id="luyen-tap" class="space-y-8 pt-6">
+            <div class="border-b-2 border-navy pb-3 flex flex-col md:flex-row justify-between md:items-end gap-2">
+                <div>
+                    <span class="text-accent-red font-bold text-sm uppercase">HOẠT ĐỘNG</span>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-navy">LUYỆN TẬP TRẮC NGHIỆM (12 CÂU)</h2>
+                    <p class="text-sm text-gray-600">Kiểm tra toàn bộ kiến thức Bài 4 chuẩn định dạng SGK Lịch sử 11.</p>
+                </div>
+                <div id="score-box" class="bg-navy text-white px-4 py-2 rounded-xl text-center hidden">
+                    <span class="text-xs uppercase block text-blue-200">KẾT QUẢ ĐẠT ĐƯỢC</span>
+                    <span id="score-text" class="font-extrabold text-lg text-yellow-300">0 / 12</span>
+                </div>
+            </div>
+
+            <form id="quiz-form" class="space-y-6">
+                <!-- 12 Quiz Questions Container -->
+                <div id="quiz-questions" class="space-y-6"></div>
+
+                <div class="text-center pt-4">
+                    <button type="button" onclick="submitQuiz()" class="bg-navy hover:bg-blue-900 text-white font-bold px-8 py-3.5 rounded-xl transition-all shadow-lg text-base">
+                        <i class="fa-solid fa-paper-plane mr-2"></i> NỘP BÀI VÀ XEM KẾT QUẢ
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- SECTION: CÂU HỎI TƯ DUY -->
+        <section id="cau-hoi-tu-duy" class="bg-soft-gray p-6 rounded-2xl border border-gray-200 shadow-sm space-y-4">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-brain text-accent-red text-xl"></i>
+                <h3 class="font-bold text-navy text-lg">CÂU HỎI TƯ DUY VÀ PHÂN TÍCH LỊCH SỬ</h3>
+            </div>
+            <p class="text-xs md:text-sm text-gray-600">Nhấp chọn các câu hỏi bên dưới để mở hướng dẫn tư duy dựa trên kiến thức bài học.</p>
+
+            <div class="space-y-3">
+                <details class="bg-white p-4 rounded-xl border border-gray-300 cursor-pointer">
+                    <summary class="font-bold text-navy text-sm md:text-base">
+                        Câu 1: Vì sao chủ nghĩa xã hội mở rộng phạm vi sau Chiến tranh thế giới thứ hai?
+                    </summary>
+                    <div class="mt-3 text-xs md:text-sm text-gray-700 space-y-2 pt-2 border-t border-gray-200">
+                        <p><strong>Hướng dẫn trả lời:</strong> Do thắng lợi của Liên Xô và các lực lượng Dân chủ trong Chiến tranh thế giới thứ hai; các dân tộc ở Đông Âu, Châu Á (như Trung Quốc, Việt Nam) đấu tranh giải phóng dân tộc thành công và lựa chọn con đường tiến lên CNXH.</p>
+                    </div>
+                </details>
+
+                <details class="bg-white p-4 rounded-xl border border-gray-300 cursor-pointer">
+                    <summary class="font-bold text-navy text-sm md:text-base">
+                        Câu 2: Vì sao mô hình chủ nghĩa xã hội ở Liên Xô và Đông Âu bị tan rã?
+                    </summary>
+                    <div class="mt-3 text-xs md:text-sm text-gray-700 space-y-2 pt-2 border-t border-gray-200">
+                        <p><strong>Hướng dẫn trả lời:</strong> Do sự chậm trễ sửa chữa khuyết điểm của cơ chế tập trung quan liêu bao cấp; phạm sai lầm nghiêm trọng trong quá trình cải tổ; khủng hoảng kinh tế - xã hội kéo dài và tác động chống phá của các lực lượng thù địch.</p>
+                    </div>
+                </details>
+
+                <details class="bg-white p-4 rounded-xl border border-gray-300 cursor-pointer">
+                    <summary class="font-bold text-navy text-sm md:text-base">
+                        Câu 3: Những nước xã hội chủ nghĩa còn tồn tại sau năm 1991 đã có những điều chỉnh như thế nào?
+                    </summary>
+                    <div class="mt-3 text-xs md:text-sm text-gray-700 space-y-2 pt-2 border-t border-gray-200">
+                        <p><strong>Hướng dẫn trả lời:</strong> Đã chủ động cải cách, đổi mới (Trung Quốc từ 1978, Việt Nam và Lào từ 1986, Cuba cập nhật mô hình); lấy phát triển kinh tế làm trọng tâm; phát triển kinh tế thị trường định hướng XHCN và mở rộng hội nhập quốc tế.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- SECTION: VẬN DỤNG -->
+        <section id="van-dung" class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+            <div class="flex items-center gap-2 border-b pb-3 border-navy">
+                <i class="fa-solid fa-lightbulb text-yellow-500 text-2xl"></i>
+                <h2 class="text-xl md:text-2xl font-extrabold text-navy">HOẠT ĐỘNG VẬN DỤNG</h2>
+            </div>
+            
+            <div class="bg-ice-blue p-4 rounded-xl">
+                <p class="font-bold text-navy text-sm md:text-base">
+                    "Từ những biến động của chủ nghĩa xã hội từ sau Chiến tranh thế giới thứ hai đến nay, em hãy nêu một số bài học về việc thích ứng với những thay đổi của kinh tế, xã hội và quốc tế."
+                </p>
+            </div>
+
+            <div class="space-y-3">
+                <textarea id="reflection-input" rows="4" class="w-full p-3 border border-gray-300 rounded-xl text-xs md:text-sm focus:ring-2 focus:ring-navy focus:outline-none" placeholder="Nhập nhận thức và bài học cá nhân của em tại đây..."></textarea>
+                <div class="flex justify-between items-center">
+                    <button onclick="saveReflection()" class="bg-accent-red hover:bg-red-700 text-white font-bold px-5 py-2 rounded-xl text-xs md:text-sm transition-all">
+                        <i class="fa-solid fa-floppy-disk mr-1"></i> GHI NHẬN Ý KIẾN
+                    </button>
+                    <span id="save-status" class="text-xs font-semibold text-green-600 hidden">✓ Đã ghi nhận suy nghĩ của em!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: TỔNG KẾT & TỔNG HỢP -->
+        <section id="tong-ket" class="space-y-8 pt-6">
+            <div class="border-b-2 border-navy pb-3">
+                <span class="text-accent-red font-bold text-sm uppercase">HOẠT ĐỘNG</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold text-navy">TỔNG KẾT VÀ HỆ THỐNG HÓA BÀI HỌC</h2>
+                <p class="text-sm text-gray-600">Sơ đồ tư duy 5 nhánh và 7 từ khóa cốt lõi em cần nhớ.</p>
+            </div>
+
+            <!-- SƠ ĐỒ TƯ DUY 5 NHÁNH -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-6">
+                <h3 class="text-center font-extrabold text-navy text-lg md:text-xl">
+                    SƠ ĐỒ TƯ DUY: SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI (1945 – NAY)
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-3 text-center text-xs font-bold">
+                    <div class="bg-ice-blue border-2 border-navy p-3 rounded-xl">
+                        <span class="text-accent-red block text-sm">NHÁNH 1</span>
+                        <p class="text-navy mt-1">ĐÔNG ÂU (1945–1989)</p>
+                        <p class="text-gray-600 text-[11px] font-normal mt-1">Thành lập DCND & xây dựng CNXH</p>
+                    </div>
+                    <div class="bg-ice-blue border-2 border-navy p-3 rounded-xl">
+                        <span class="text-accent-red block text-sm">NHÁNH 2</span>
+                        <p class="text-navy mt-1">CHÂU Á</p>
+                        <p class="text-gray-600 text-[11px] font-normal mt-1">Trung Quốc, Việt Nam, Lào, Triều Tiên</p>
+                    </div>
+                    <div class="bg-ice-blue border-2 border-navy p-3 rounded-xl">
+                        <span class="text-accent-red block text-sm">NHÁNH 3</span>
+                        <p class="text-navy mt-1">MỸ LA-TINH</p>
+                        <p class="text-gray-600 text-[11px] font-normal mt-1">Cuba - ngọn cờ đầu Tây Bán cầu</p>
+                    </div>
+                    <div class="bg-ice-blue border-2 border-navy p-3 rounded-xl">
+                        <span class="text-accent-red block text-sm">NHÁNH 4</span>
+                        <p class="text-navy mt-1">TAN RÃ (1989–1991)</p>
+                        <p class="text-gray-600 text-[11px] font-normal mt-1">Sụp đổ mô hình ở Đông Âu & Liên Xô</p>
+                    </div>
+                    <div class="bg-ice-blue border-2 border-navy p-3 rounded-xl">
+                        <span class="text-accent-red block text-sm">NHÁNH 5</span>
+                        <p class="text-navy mt-1">TỪ 1991 ĐẾN NAY</p>
+                        <p class="text-gray-600 text-[11px] font-normal mt-1">Cải cách, Đổi mới & Phát triển</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EM CẦN NHỚ: 7 Ý CHÍNH -->
+            <div class="bg-soft-gray p-6 rounded-2xl border border-gray-200 shadow-sm space-y-4">
+                <h3 class="font-bold text-navy text-lg flex items-center gap-2">
+                    <i class="fa-solid fa-key text-accent-red"></i> "EM CẦN NHỚ" – 7 Ý CHÍNH CỦA BÀI 4
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs md:text-sm text-gray-700">
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">1.</span>
+                        <p>Sau 1945, CNXH phát triển từ một nước (Liên Xô) trở thành một hệ thống thế giới.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">2.</span>
+                        <p>Các nước Đông Âu trải qua 2 giai đoạn: 1945–1949 (DCND) và 1949–1970s (Xây dựng CNXH).</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">3.</span>
+                        <p>Ở Châu Á, Trung Quốc (1949) và Việt Nam (1945/1975) là các trung tâm phát triển CNXH lớn.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">4.</span>
+                        <p>Tại Mỹ La-tinh, Cách mạng Cuba (1959) mở ra con đường XHCN duy nhất trong khu vực.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">5.</span>
+                        <p>Sự sụp đổ ở Đông Âu (1989) và Liên Xô (1991) do khuyết điểm mô hình và sai lầm cải tổ.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2">
+                        <span class="font-bold text-accent-red">6.</span>
+                        <p>Từ sau 1991, các nước như Trung Quốc, Việt Nam kiên trì và đạt tựu lớn nhờ Cải cách / Đổi mới.</p>
+                    </div>
+                    <div class="p-3 bg-white rounded-xl border border-gray-200 flex gap-2 md:col-span-2">
+                        <span class="font-bold text-accent-red">7.</span>
+                        <p>Sự sụp đổ ở Liên Xô là tổn thất lớn, nhưng đổi mới giúp CNXH tiếp tục khẳng định sức sống.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DÒNG THỜI GIAN TỔNG HỢP NGANG -->
+            <div class="bg-white p-6 rounded-2xl border border-ice-blue shadow-sm space-y-4">
+                <h3 class="font-bold text-navy text-lg">DÒNG THỜI GIAN LỊCH SỬ TỔNG HỢP</h3>
+                <p class="text-xs text-gray-500">Bấm vào từng mốc thời gian để xem sự kiện lịch sử tương ứng.</p>
+
+                <div class="flex items-center justify-between overflow-x-auto gap-2 py-3 border-y border-gray-200">
+                    <button onclick="showTimelineDetail('1945', '1945: Thắng lợi chống Phát xít, thành lập các nhà nước Dân chủ Nhân dân Đông Âu, Việt Nam giành độc lập.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        1945
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('1949', '1949: Nước CHND Trung Hoa ra đời; Đông Âu bước vào giai đoạn xây dựng CNXH.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        1949
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('GIỮA 70S', 'Giữa 1970s: Hệ thống XHCN đạt nhiều thành tựu về kinh tế, khoa học kỹ thuật và quân sự.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        GIỮA 70S
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('1978', '12/1978: Trung Quốc khởi xướng đường lối Cải cách và mở cửa.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        1978
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('1989', '1989: Chế độ XHCN ở các nước Đông Âu sụp đổ.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        1989
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('1991', '12/1991: Liên Xô chính thức tan rã.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        1991
+                    </button>
+                    <i class="fa-solid fa-arrow-right text-gray-400 text-xs"></i>
+                    <button onclick="showTimelineDetail('NAY', 'Từ 1991 đến nay: Các nước XHCN đẩy mạnh cải cách, công nghiệp hóa và hội nhập.')" class="px-4 py-2 bg-navy text-white font-bold rounded-lg text-xs whitespace-nowrap hover:bg-accent-red transition-all">
+                        NAY
+                    </button>
+                </div>
+
+                <div id="timeline-detail-box" class="p-4 bg-ice-blue rounded-xl text-xs md:text-sm text-navy font-semibold border border-navy/20">
+                    Bấm vào một mốc niên đại ở trên để hiển thị sự kiện lịch sử chi tiết.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy text-white border-t-4 border-accent-red mt-12 py-6 text-center text-xs">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="font-bold text-sm tracking-wide">
+                BÀI 4: SỰ PHÁT TRIỂN CỦA CHỦ NGHĨA XÃ HỘI TỪ SAU CHIẾN TRANH THẾ GIỚI THỨ HAI ĐẾN NAY
+            </p>
+            <p class="text-blue-200">
+                LỊCH SỬ 11 – BỘ SÁCH KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (TRANG 22 – TRANG 28)
+            </p>
+            <p class="text-gray-400">Website bài học tương tác chuẩn kiến thức SGK lịch sử.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT CODE -->
+    <script>
+        // MATCHING GAME LOGIC
+        let selectedC = null;
+        let selectedCountryElem = null;
+
+        const correctPairs = {
+            'LIÊN XÔ': 'GIUP-DO-DONG-AU',
+            'ĐÔNG ÂU': '1945-1949-DAN-CHU',
+            'TRUNG QUỐC': '1949-TRUNG-HOA',
+            'VIỆT NAM': '1986-DOI-MOI',
+            'CUBA': '1959-CACH-MANG'
+        };
+
+        function selectCountry(country, elem) {
+            selectedC = country;
+            if (selectedCountryElem) {
+                selectedCountryElem.classList.remove('bg-navy', 'text-white');
+                selectedCountryElem.classList.add('bg-white');
+            }
+            selectedCountryElem = elem;
+            elem.classList.remove('bg-white');
+            elem.classList.add('bg-navy', 'text-white');
+        }
+
+        function selectEvent(eventId, elem) {
+            const feedback = document.getElementById('matching-feedback');
+            if (!selectedC) {
+                feedback.className = 'mt-4 p-3 rounded-xl text-center font-bold bg-yellow-100 text-yellow-800 border border-yellow-300 block text-xs';
+                feedback.innerText = 'Vui lòng chọn một Quốc gia ở cột bên trái trước!';
+                return;
+            }
+
+            if (correctPairs[selectedC] === eventId) {
+                feedback.className = 'mt-4 p-3 rounded-xl text-center font-bold bg-green-100 text-green-800 border border-green-300 block text-xs';
+                feedback.innerText = 'CHÍNH XÁC! Cặp ghép đúng cho ' + selectedC;
+            } else {
+                feedback.className = 'mt-4 p-3 rounded-xl text-center font-bold bg-red-100 text-red-800 border border-red-300 block text-xs';
+                feedback.innerText = 'HÃY SUY NGHĨ LẠI! Cặp ghép chưa chính xác.';
+            }
+        }
+
+        function showCauseCategory(title, category, explanation) {
+            const box = document.getElementById('cause-result');
+            const tag = document.getElementById('cause-tag');
+            const desc = document.getElementById('cause-desc');
+
+            box.classList.remove('hidden');
+            tag.innerText = 'NHÓM YẾU TỐ: ' + category;
+            desc.innerText = title + ' → ' + explanation;
+        }
+
+        const tfQuestions = [
+            { text: "1. Sau năm 1945, chủ nghĩa xã hội mở rộng phạm vi trở thành một hệ thống thế giới.", ans: true, exp: "Đúng. Hệ thống XHCN hình thành từ Đông Âu nối liền sang Châu Á." },
+            { text: "2. Cách mạng Cuba thắng lợi năm 1959 đánh dấu sự mở rộng CNXH ở Mỹ La-tinh.", ans: true, exp: "Đúng. Cuba là nước đầu tiên xây dựng CNXH tại Mỹ La-tinh." },
+            { text: "3. Chế độ xã hội chủ nghĩa ở Đông Âu sụp đổ vào năm 1991.", ans: false, exp: "Sai. Chế độ XHCN ở Đông Âu sụp đổ năm 1989, còn năm 1991 là sự tan rã của Liên Xô." },
+            { text: "4. Trung Quốc bắt đầu tiến hành Cải cách và mở cửa từ cuối năm 1978.", ans: true, exp: "Đúng. Mốc tháng 12/1978 mở đầu đường lối Cải cách mở cửa." },
+            { text: "5. Công cuộc Đổi mới ở Việt Nam được khởi xướng tại Đại hội VI năm 1986.", ans: true, exp: "Đúng. Tháng 12/1986 đánh dấu đường lối Đổi mới toàn diện." },
+            { text: "6. Sự sụp đổ của mô hình CNXH ở Đông Âu và Liên Xô là do bản chất khoa học của CNXH bị sai lầm.", ans: false, exp: "Sai. Sự sụp đổ là do mô hình quản lý sai lầm chứ không phải bản chất khoa học của CNXH." },
+            { text: "7. Từ sau năm 1991, không còn quốc gia nào tiếp tục con đường xây dựng chủ nghĩa xã hội.", ans: false, exp: "Sai. Các nước như Trung Quốc, Việt Nam, Lào, Cuba vẫn kiên trì và đạt thành tựu." },
+            { text: "8. Sự giúp đỡ của Liên Xô đóng vai trò quan trọng đối với các nước Đông Âu giai đoạn 1949 - 1970s.", ans: true, exp: "Đúng. Liên Xô hỗ trợ lớn về tài chính và kỹ thuật." }
+        ];
+
+        function renderTFQuestions() {
+            const container = document.getElementById('tf-container');
+            container.innerHTML = tfQuestions.map((q, idx) => `
+                <div class="bg-white p-3.5 rounded-xl border border-gray-200 text-xs md:text-sm space-y-2">
+                    <p class="font-semibold text-navy">${q.text}</p>
+                    <div class="flex items-center gap-3">
+                        <button onclick="checkTF(${idx}, true, this)" class="px-3 py-1 bg-gray-100 hover:bg-navy hover:text-white rounded-lg font-bold border border-gray-300">ĐÚNG</button>
+                        <button onclick="checkTF(${idx}, false, this)" class="px-3 py-1 bg-gray-100 hover:bg-accent-red hover:text-white rounded-lg font-bold border border-gray-300">SAI</button>
+                        <span id="tf-feedback-${idx}" class="font-bold text-xs"></span>
+                    </div>
+                    <p id="tf-exp-${idx}" class="text-gray-600 text-xs hidden pt-1 border-t border-gray-100">${q.exp}</p>
+                </div>
+            `).join('');
+        }
+
+        function checkTF(idx, userAns, btn) {
+            const q = tfQuestions[idx];
+            const feedback = document.getElementById(`tf-feedback-${idx}`);
+            const exp = document.getElementById(`tf-exp-${idx}`);
+
+            if (userAns === q.ans) {
+                feedback.className = "text-green-600 font-bold text-xs";
+                feedback.innerText = "✓ CHÍNH XÁC!";
+            } else {
+                feedback.className = "text-red-600 font-bold text-xs";
+                feedback.innerText = "✗ CHƯA ĐÚNG!";
+            }
+            exp.classList.remove('hidden');
+        }
+
+        const quizData = [
+            {
+                q: "1. Trong giai đoạn 1945 – 1949, nhiệm vụ chính của các nước Đông Âu là gì?",
+                a: ["Hoàn thành cách mạng dân chủ nhân dân.", "Tiến thẳng lên nền kinh tế tri thức.", "Thực hiện cải cách mở cửa.", "Gia nhập tổ chức Liên Hợp Quốc."],
+                correct: 0
+            },
+            {
+                q: "2. Giai đoạn 1949 đến giữa những năm 70 của thế kỷ XX, các nước Đông Âu tiến hành:",
+                a: ["Cải cách ruộng đất.", "Xây dựng chủ nghĩa xã hội.", "Đổi mới kinh tế thị trường.", "Khủng hoảng chính trị."],
+                correct: 1
+            },
+            {
+                q: "3. Nước Cộng hòa Nhân dân Trung Hoa chính thức thành lập vào mốc thời gian nào?",
+                a: ["Năm 1945", "Ngày 1/10/1949", "Năm 1954", "Tháng 12/1978"],
+                correct: 1
+            },
+            {
+                q: "4. Thắng lợi của cuộc cách mạng nào năm 1959 đã mở ra con đường XHCN tại Mỹ La-tinh?",
+                a: ["Cách mạng Tháng Tám Việt Nam", "Cách mạng Cuba", "Cách mạng Trung Quốc", "Cách mạng Lào"],
+                correct: 1
+            },
+            {
+                q: "5. Mốc thời gian nào đánh dấu sự sụp đổ của chế độ XHCN ở các nước Đông Âu?",
+                a: ["Năm 1973", "Năm 1986", "Năm 1989", "Năm 1991"],
+                correct: 2
+            },
+            {
+                q: "6. Sự kiện Liên bang Xô viết (Liên Xô) chính thức tan rã diễn ra vào:",
+                a: ["Tháng 12 năm 1989", "Tháng 12 năm 1991", "Tháng 10 năm 1949", "Năm 1978"],
+                correct: 1
+            },
+            {
+                q: "7. Nguyên nhân căn bản về mặt kinh tế dẫn đến sự khủng hoảng của Liên Xô và Đông Âu là gì?",
+                a: ["Duy trì quá lâu cơ chế tập trung quan liêu bao cấp.", "Do chiến tranh tàn phá nặng nề.", "Do thiên tai liên tiếp xảy ra.", "Do quy mô dân số tăng quá nhanh."],
+                correct: 0
+            },
+            {
+                q: "8. Từ tháng 12/1978, Trung Quốc đề ra đường lối quan trọng nào?",
+                a: ["Cải cách và mở cửa", "Công nghiệp hóa nặng", "Bao cấp toàn diện", "Đóng cửa nền kinh tế"],
+                correct: 0
+            },
+            {
+                q: "9. Đường lối Đổi mới toàn diện đất nước ở Việt Nam được bắt đầu từ mốc năm nào?",
+                a: ["Năm 1975", "Năm 1986", "Năm 1991", "Năm 1995"],
+                correct: 1
+            },
+            {
+                q: "10. Sau năm 1991, những quốc gia nào tiếp tục kiên trì con đường xây dựng CNXH?",
+                a: ["Trung Quốc, Việt Nam, Lào, Cuba...", "Anh, Pháp, Mỹ, Nhật Bản", "Các nước ở khu vực Đông Âu", "Liên Xô và Tiệp Khắc"],
+                correct: 0
+            },
+            {
+                q: "11. Nội dung nào sau đây phản ánh đúng thành tựu của Trung Quốc từ khi cải cách mở cửa?",
+                a: ["Quy mô GDP vươn lên đứng thứ hai thế giới.", "Kinh tế lâm vào suy thoái nghiêm trọng.", "Ngừng giao thương với bên ngoài.", "Sụp đổ hệ thống tài chính."],
+                correct: 0
+            },
+            {
+                q: "12. Điểm chung trong công cuộc cải cách, đổi mới của Việt Nam và Trung Quốc là:",
+                a: ["Kiên trì con đường XHCN và lấy phát triển kinh tế làm trọng tâm.", "Thay đổi toàn bộ hệ thống chính trị đa đảng.", "Chỉ tập trung phát triển nông nghiệp.", "Rút khỏi các tổ chức quốc tế."],
+                correct: 0
+            }
+        ];
+
+        function renderQuiz() {
+            const container = document.getElementById('quiz-questions');
+            container.innerHTML = quizData.map((item, qIdx) => `
+                <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm space-y-3">
+                    <p class="font-bold text-navy text-sm md:text-base">${item.q}</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs md:text-sm">
+                        ${item.a.map((opt, aIdx) => `
+                            <label class="flex items-center gap-2 p-3 bg-soft-gray hover:bg-ice-blue rounded-xl border border-gray-200 cursor-pointer transition-all">
+                                <input type="radio" name="question-${qIdx}" value="${aIdx}" class="accent-navy">
+                                <span class="text-gray-800">${String.fromCharCode(65 + aIdx)}. ${opt}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                    <div id="quiz-feedback-${qIdx}" class="text-xs font-bold hidden pt-2"></div>
+                </div>
+            `).join('');
+        }
+
+        function submitQuiz() {
+            let score = 0;
+            quizData.forEach((item, qIdx) => {
+                const selected = document.querySelector(`input[name="question-${qIdx}"]:checked`);
+                const feedback = document.getElementById(`quiz-feedback-${qIdx}`);
+                feedback.classList.remove('hidden');
+
+                if (selected) {
+                    const val = parseInt(selected.value);
+                    if (val === item.correct) {
+                        score++;
+                        feedback.className = "text-xs font-bold text-green-600 block mt-1";
+                        feedback.innerText = "✓ Chính xác!";
+                    } else {
+                        feedback.className = "text-xs font-bold text-accent-red block mt-1";
+                        feedback.innerText = `✗ Sai. Đáp án đúng là: ${String.fromCharCode(65 + item.correct)}. ${item.a[item.correct]}`;
+                    }
+                } else {
+                    feedback.className = "text-xs font-bold text-accent-red block mt-1";
+                    feedback.innerText = `Chưa chọn đáp án. Đáp án đúng: ${String.fromCharCode(65 + item.correct)}. ${item.a[item.correct]}`;
+                }
+            });
+
+            const scoreBox = document.getElementById('score-box');
+            const scoreText = document.getElementById('score-text');
+            scoreBox.classList.remove('hidden');
+            const pct = Math.round((score / 12) * 100);
+            scoreText.innerText = `${score} / 12 (${pct}%)`;
+            scoreBox.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function saveReflection() {
+            const input = document.getElementById('reflection-input');
+            const status = document.getElementById('save-status');
+            if (input.value.trim() !== '') {
+                status.classList.remove('hidden');
+                setTimeout(() => {
+                    status.classList.add('hidden');
+                }, 3000);
+            }
+        }
+
+        function showTimelineDetail(time, desc) {
+            const box = document.getElementById('timeline-detail-box');
+            box.innerText = desc;
+        }
+
+        // INITIALIZE CONTENT ON LOAD
+        window.onload = function() {
+            renderTFQuestions();
+            renderQuiz();
+        }
+    </script>
+</body>
+</html>
